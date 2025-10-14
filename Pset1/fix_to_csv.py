@@ -1,5 +1,10 @@
 #fix_to_csv.py
 
+"""
+Usage:
+    python fix_to_csv.py --input_fix_file cleaned.fix --output_csv_file fills.csv
+"""
+
 from __future__ import annotations
 import argparse
 import csv
