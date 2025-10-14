@@ -11,7 +11,7 @@ def parse_fix_line(line):
     """
     Given a line like:
       20250910-00:02:34.713753 : 8=FIX.4.29=33035=834=1962...
-    we return (prefix_ts, {tag: value, ...}).
+    we return (prefix_ts, {tag: value, ...})
 
     """
     line = line.rstrip("\n")
