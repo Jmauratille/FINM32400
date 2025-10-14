@@ -2,7 +2,7 @@
 
 """
 Usage:
-    python fix_to_csv.py --input_fix_file cleaned.fix --output_csv_file fills.csv
+    python ~/FINM32400/Pset1/fix_to_csv.py --input_fix_file /opt/assignment1/trading.fix --output_csv_file ~/FINM32400/Pset1/fills.csv
 """
 
 from __future__ import annotations

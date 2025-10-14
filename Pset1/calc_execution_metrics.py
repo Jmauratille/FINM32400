@@ -2,7 +2,7 @@
 
 """
 Usage: 
-    python ~/FINM32400/Pset1/calc_execution_metrics.py --input_csv_file fills.csv --output_metrics_file metrics.csv
+    python ~/FINM32400/Pset1/calc_execution_metrics.py --input_csv_file ~/FINM32400/Pset1/fills.csv --output_metrics_file ~/FINM32400/Pset1/metrics.csv
 """
 
 import argparse
