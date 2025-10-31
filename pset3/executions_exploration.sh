@@ -31,6 +31,3 @@ cut -d, -f4 /opt/assignment3/executions.csv | grep '^NVDA$' > a3_only_nvda.txt
 # Question 8
 
 cut -d, -f4 /opt/assignment3/executions.csv | grep -v '^NVDA$' > a3_all_except_nvda.txt
-
-
-
